@@ -1,8 +1,24 @@
-# React + Vite
+# Rejouice Clone 🎨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A pixel-perfect front-end clone of the [Rejouice](https://rejouice.com/) website, built with **React** and **Vite**. This project replicates the design, animations, and responsive behavior of the original site.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
+
+- **React**
+- **Vite**
+- **SCSS Modules**
+- **GSAP / Framer Motion** (for animations)
+- **Responsive Design**
+
+---
+
+## 📸 Screenshots
+
+> _[Add screenshots or screen recordings here in future — use the `/preview` folder or GitHub Issues uploads]_
+
+---
+
+## 📁 Folder Structure
+
