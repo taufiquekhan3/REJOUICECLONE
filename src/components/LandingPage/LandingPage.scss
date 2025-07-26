@@ -1,0 +1,55 @@
+body,
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+  font-family: ba;
+  src: url(../../assets/SuisseIntl-Regular.ttf);
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .container {
+    min-width: 100%; /* Set min-width to 100% for small screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+  
+}
+
+.heading {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 600px;
+  color: white;
+  white-space: nowrap;
+  h1 {
+    font-size: 23rem;
+    padding: 0vw 1.5vw 0 2.5vw; 
+    font-family: "ba";
+  }
+}
+
+.s1 {
+    display: flex;
+    position: absolute;
+    top: 40vw;
+    padding: 0 0 0 3.5vw;
+
+    div {
+        margin-right: 2vw;
+        font-size: 1.5rem;
+        color: white;
+    }
+}

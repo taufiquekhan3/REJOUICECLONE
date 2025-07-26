@@ -1,0 +1,91 @@
+@font-face {
+    font-family: nb;
+    src: url(../../assets/SuisseIntl-Light.ttf);
+}
+
+
+.outer-flex {
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 0 4vw;
+    margin-bottom: 0vw;
+
+    .text-up {
+        padding: 3vw 1.5vw;
+        font-size: 2.4rem;
+        text-align: center;
+        border-bottom: 3px solid rgb(42, 41, 41);
+        line-height: 0.8;
+
+        h1 {
+            font-family: "nb";
+            font-weight: lighter;
+        }
+    }
+
+
+    .inner-flex {
+        padding: 2vw 0;
+        width: 100vw;
+        display: flex;
+        gap: 29vw;
+        margin-bottom: 15vw;
+
+        .box {
+            font-size: 0.8rem;
+            max-width: 500px;
+
+            .description {
+                margin-bottom: 2vw;
+            }
+
+            h1 {
+                font-family: "nb";
+                font-weight: lighter;
+            }
+        }
+    }
+
+    
+.car-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    background-color: black;
+    padding: 0 4vw;
+
+    .car-row {
+        width: 90vw; // Restrict width to avoid exceeding boundaries
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 100%; // Ensures it stays within container
+            height: auto;
+            object-fit: cover;
+            max-width: 100%; // Prevents overflow
+        }
+    }
+
+    .car-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2vw;
+        background-color: black;
+        margin-bottom: 22vw;
+
+        .car {
+            max-width: 100%;
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+}
+}
+
