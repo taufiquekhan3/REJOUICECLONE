@@ -1,24 +1,63 @@
-# Rejouice Clone 🎨
 
-A pixel-perfect front-end clone of the [Rejouice](https://rejouice.com/) website, built with **React** and **Vite**. This project replicates the design, animations, and responsive behavior of the original site.
+# Rejouice Clone ✨
 
----
+A pixel-perfect, animated clone of [Rejouice](https://rejouice.com/) using **React**, **Vite**, **Framer Motion**, and **GSAP**.
 
-## 🚀 Tech Stack
+## 🚀 Live Demo
 
-- **React**
-- **Vite**
-- **SCSS Modules**
-- **GSAP / Framer Motion** (for animations)
-- **Responsive Design**
+[Click here to view the site](https://your-live-site.vercel.app)
 
 ---
 
-## 📸 Screenshots
+## 🛠️ Tech Stack
 
-> _[Add screenshots or screen recordings here in future — use the `/preview` folder or GitHub Issues uploads]_
-
----
+- ⚛️ React + Vite
+- 🎞️ Framer Motion
+- 🎨 GSAP
+- 💅 CSS Modules / Tailwind (if used)
 
 ## 📁 Folder Structure
+vite-project/
+├── public/
+├── src/
+│ ├── assets/
+│ ├── components/
+│ └── main.jsx
+├── package.json
+├── vite.config.js
+└── .gitignore
 
+## 📸 Current Progress
+
+- ✅ Landing Page section
+- ✅ Text section
+- ✅ Approach Page
+- ✅ Contact Page
+- ✅ 
+
+![Screenshot](./screenshots/home.png)
+
+---
+
+
+
+## 🔮 Next Steps (Using Framer Motion)
+
+- [ ] Cursor magnetic effect
+- [ ] Add micro-Interaction on Images
+- [ ] Integrate Swiper.js
+- [ ] Contact Section
+
+---
+
+---
+
+## 🤝 Contributing
+
+Open for contributions, enhancements, or ideas! Fork the repo and submit a PR.
+
+---
+
+## 📄 License
+
+MIT License
