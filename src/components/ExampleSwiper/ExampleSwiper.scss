@@ -1,0 +1,21 @@
+.marquee-wrapper {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.marquee-slide {
+  width: auto !important; // allows dynamic width per image
+}
+
+.marquee-img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.marquee-img:hover {
+  transform: scale(1.05);
+}
