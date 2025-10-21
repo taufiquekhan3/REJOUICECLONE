@@ -1,8 +1,9 @@
-
 body {
-    overflow-x: hidden;
-    margin: 0;
-    padding: 20px;
-  }
+  overflow-x: hidden;
+  margin: 0;
+  padding: 20px;
+}
 
-  
+html {
+  scroll-behavior: smooth;
+}
